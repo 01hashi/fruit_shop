@@ -1,0 +1,40 @@
+/* 全体のレイアウト設定 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+/* サイドバーのスタイル */
+.sidebar {
+    width: 250px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4
